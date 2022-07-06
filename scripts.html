@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Beat</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div id="header">
+        <h1><a href="#">News Beat</a></h1>
+        <h2>Script Page</h2>
+      </div>
+      <div id="menu">
+        <ul>
+          <li class="first"><a href="index.html" accesskey="1">Home</a></li>
+          <li><a href="news.html" accesskey="2">News</a></li>
+          <li><a href="team.html" accesskey="3">Team</a></li>
+          <li><a href="about.html" accesskey="4">About Us</a></li>
+          <li><a href="scripts.html" accesskey="5">Scripts test</a></li>
+        </ul>
+      </div>
+      <hr />
+    </header>
+
+    <main>
+      <div class="section-placeholder"></div>
+      <div id="latest-post" class="post">
+        <h1 class="title" style="text-align: center">
+          <a href="#">Script Test Page</a>
+        </h1>
+        <div class="entry">
+          <h4>1. Given a number, return the Factorial of the number. <br />
+          Result:</h4>
+          <p id="GFG_UP" style="font-size: 15px; font-weight: bold"></p>
+          <button onclick="GFG_Fun()">Click Here</button>
+          <p id="GFG_DOWN" style="color: green; font-size: 20px; font-weight: bold"></p>
+
+          <h4> 2. Given a string return if the string is Palindrome. <br />
+          Result:</h4>
+          <div class="palin">
+            <label> Enter any string : </label> 
+            <input type "text" id= "pa"> <br> <br>
+            <label> Resultant string : </label> 
+            <input type = "text" id = "pa2" > </b> <br> 
+            <input type= "submit" onclick = "palindrome()" > <br> 
+          </div>      
+          
+          <h4>3. Given a number, return the Factorial of the number. <br />
+            Result:</h4>
+            Insert an input: <input id = "is-unique"> <br>
+            <button onclick = "unique1()" > Check </button>
+            <p id = "result"></p>  
+        </div>
+    </main>
+
+    <footer>
+      <div id="footer">
+        <p class="legal">&copy;2022 All Rights Reserved.</p>
+        <p class="credit">Made by <a href="#">Lilly A. Nikolova</a>.</p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
