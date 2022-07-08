@@ -27,33 +27,29 @@
 
     <main>
       <div class="section-placeholder"></div>
-      <div id="latest-post" class="post">
-        <h1 class="title" style="text-align: center">
-          <a href="#">Script Test Page</a>
-        </h1>
-        <div class="entry">
-          <h4>1. Given a number, return the Factorial of the number. <br />
-          Result:</h4>
-          <p id="GFG_UP" style="font-size: 15px; font-weight: bold"></p>
-          <button onclick="GFG_Fun()">Click Here</button>
-          <p id="GFG_DOWN" style="color: green; font-size: 20px; font-weight: bold"></p>
+       <main class="scripts-test-main-element">
+        <section class="functions">
+            <article class="function">
+                <p>Factorial Test:</p>
+                <button class="btn" onclick="factorial()">Test</button>
+                <input type="number" id="input-el">
+                <div id="output-el"></div>
+            </article>
 
-          <h4> 2. Given a string return if the string is Palindrome. <br />
-          Result:</h4>
-          <div class="palin">
-            <label> Enter any string : </label> 
-            <input type "text" id= "pa"> <br> <br>
-            <label> Resultant string : </label> 
-            <input type = "text" id = "pa2" > </b> <br> 
-            <input type= "submit" onclick = "palindrome()" > <br> 
-          </div>      
-          
-          <h4>3. Given a number, return the Factorial of the number. <br />
-            Result:</h4>
-            Insert an input: <input id = "is-unique"> <br>
-            <button onclick = "unique1()" > Check </button>
-            <p id = "result"></p>  
-        </div>
+            <article class="function">
+                <p>Palindrome Test:</p>
+                <button class="btn" onclick="palindrome()">Test</button>
+                <input type="text" id="input-el-palindrome">
+                <div id="output-el-palindrome"></div>
+            </article>
+
+            <article class="function">
+                <p>Even Occurrences Test:</p>
+                <button class="btn" onclick="evenOccurences()">Test</button>
+                <input type="text" id="input-el-even">
+                <div id="output-el-even"></div>
+            </article>
+        </section>
     </main>
 
     <footer>
